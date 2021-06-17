@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>web课程学习总结--by Chris</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Transit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="shortcut icon" href="images/icon.ico">
+	<script src="js/jquery-1.11.1.min.js"> </script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner a-banner">
+		<!-- container -->
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<a href="#">学习总结</a>
+				</div>
+				<div class="icons">
+					<ul>
+						<li><a href="#" class="facebook"> </a></li>
+						<li><a href="#" class="facebook twitter"> </a></li>
+						<li><a href="#" class="facebook chrome"> </a></li>
+						<li><a href="#" class="facebook dribbble"> </a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="top-nav">
+				<span class="menu">菜单</span>
+				<ul class="nav1">
+					<li><a href="summary_HTML.html" style="font-family: Mirosoft Yahei;">html总结</a></li>
+					<li><a href="summary_CSS.html" class="active" style="font-family: Mirosoft Yahei;">css总结</a></li>
+					<li><a href="index.html" style="font-family: Mirosoft Yahei;">web大作业</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+					$("span.menu").click(function () {
+						$("ul.nav1").slideToggle(300, function () {
+							// Animation complete.
+						});
+					});
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<!-- about-top -->
+	<div class="about-top" style="padding-bottom: 1em;">
+		<!-- container -->
+		<div class="container">
+			<div class="about-info" style="background-color: #ffcc3311;">
+				<h3 style="font-family: Mirosoft Yahei;">WEB课程总结--css篇</h3>
+				<p class="chris">
+					CSS是级联样式表（Cascading Style Sheets）的缩写。HTML用于撰写页面的内容，而CSS将决定这些内容该如何在屏幕上呈现。网页的内容是由 HTML的元素构建的，这些元素如何呈现，涉及许多方面，如整个页面的布局，元素的位置、距离、颜色、大小、是否显示、是否浮动、透明度等等。
+				</p>
+                <p class="chris">
+					css的功能之强大，我在大二上学期学习java的时候就有所见闻，并一直想深入学习css，做出属于自己的漂亮的网页。刚开始接触css的时候我是非常兴奋的，因为用css，可以将原本枯燥无味的html，一点一点的变得<span style="color: rgb(255, 0, 0);">生动、活泼、有色彩。</span>
+				</p>
+                <p class="chris">
+					但是随着学习的深入，我渐渐意识到，css的“水”实在是太深了！css的基础语法点非常多，经常是学一遍时没有办法记住的，在实际开发中，还要经常的查找资料，查找语法。从最开始觉得行内样式非常方便，就在标签里面添加属性即可，到后面有一段时间喜欢用内嵌式，再到后面在做大作业的时候养成的，喜欢用外部样式表的习惯，一步步养成了比较良好的css书写规范，感受到了外部css样式的便捷，但是也一步步的感受到了css的“恐怖之处”：
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -2em; ">
+					一、在中型、大型的项目开发中，我必须要用到外部样式表，这样保证高效简洁的同时，也能通过文件的不断切屏操作来方便地查看html和css的代码，比内嵌式的css要好很多；
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -2em; ">
+					二、但是在开发中实实在在出现了的问题是：当外部css样式多起来之后，甚至来到上千行之后，这对我们开发者的挑战性也随之增加了，非常多的类名，并且为了方便表意，有很多的类名是相似的，所以<span style="color: rgb(3, 145, 126);">给我们的观察带来了很大的挑战。</span>所以，在吃了大亏之后（在项目开发过程中，我曾经因为视觉疲劳，而导致将几个非常相似的类名看错，导致最后将样式写坏掉，只得返工重做，非常头疼），我养成了<span style="color: rgb(255, 0, 0);">写css注释</span>的习惯，方便知道控制的是哪些部分，甚至可以将自己当时的思路写下，方便后续开发，因为大项目不可能一天完成，前一天所想的层叠优先级如何布置，下一天可能就会忘记，所以我认为css的注释非常值得书写
+				</p>
+                <p class="chris">
+					在之后的css学习中，我也开始慢慢接触到了框架，我用的最多的，也是本次web大作业中使用到的：bootstrap框架。Bootstrap是美国Twitter公司的设计师Mark Otto和Jacob Thornton合作基于HTML、CSS、JavaScript 开发的简洁、直观、强悍的前端开发框架，使得 Web 开发更加快捷。Bootstrap基本上是公认的现阶段最热门的响应式css框架，在学习之初，我有明显的感受：<span style="color: rgb(255, 0, 0);">之前学习的，用css的基本语法来编写我的样式，就像一针一线织毛衣，可以精细，但是效率一定不高；然而bootstrap的出现给开发者带来了希望的曙光，bootstrap更像是拼积木，样式非常多，非常丰富，我们可以根据自己的需要，使用我们喜爱的样式，快速高效的、大气美观装饰我们的网页，对于不满之处，层叠即可。</span>但是使用时要注意的是：（也是一些在作业、开发中遇到的小问题）
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -2em; ">
+					一、 “行（row）”必须包含在 .container （固定宽度）或 .container-fluid （100% 宽度）中，以便为其赋予合适的排列（aligment）和内补（padding）；
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -2em; ">
+					二、负值的 margin就是下面的示例为什么是向外突出的原因。在栅格列中的内容排成一行。
+                    栅格系统中的列是通过指定1到12的值来表示其跨越的范围。例如，三个等宽的列可以使用三个 .col-xs-4 来创建；
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -2em; ">
+					三、如果一“行（row）”中包含了的“列（column）”大于 12，多余的“列（column）”所在的元素将被作为一个整体另起一行排列；
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -2em; ">
+					四、栅格类适用于与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 .col-md-* 栅格类适用于与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 .col-lg-* 不存在， 也影响大屏幕设备：
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -0.3em; text-align: center;">
+                    <span style="color:#f0b400;">①<br>
+					媒体查询</span><br>
+                    <span style="color:#00acf0;">/* 小屏幕（平板，大于等于 768px） */<br>
+                    @media (min-width: @screen-sm-min) { … }</span><br>
+                    
+                    <span style="color:#0060f0;">/* 中等屏幕（桌面显示器，大于等于 992px） */<br>
+                    @media (min-width: @screen-md-min) { … }</span><br>
+                    
+                    <span style="color:#5c00f0;">/* 大屏幕（大桌面显示器，大于等于 1200px） */<br>
+                    @media (min-width: @screen-lg-min) { … }</span>
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -0.3em; text-align: center;">
+                    <span style="color:#f0b400;">②<br>
+                    流式布局容器</span><br>
+                    <span style="color:#530202;">将最外面的布局元素 .container 修改为 .container-fluid，就可以将固定宽度的栅格布局转换为 100% 宽度的布局。</span>
+				</p>
+                <p class="chris" style="width: 50%; text-indent: -0.3em; text-align: center;">
+                    <span style="color:#f0b400;">③<br>
+					响应式列重置</span><br>
+                    <span style="color:#530202;">在某些阈值时，某些列可能会出现比别的列高的情况。为了克服这一问题，建议联合使用 .clearfix 和 响应式工具类。</span>
+				</p>
+                <p class="chris">
+					总而言之，CSS的基础语法就像是武功中的徒手拳法，是基本功；当我们基本功扎实的时候，就是时候“上武器”了，各类的框架应当学会使用，增加我们的开发效率，就像武功中的各种兵器一般，用好了，将事半功倍。CSS还需要我不断地探索，不断的学习，学习最前沿的技术、框架，配合js，开发优质前端网页，不断打磨自身；作为一名大学生，我还有很长的路要走！
+				</p>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //about-top -->
+	<!-- copyright -->
+	<div class="copyright">
+		<!-- container -->
+		<div class="container">
+			<div class="copyright-left">
+				<p>Copyright &copy; 2021.All rights reserved.&nbsp;-Chris-designed&nbsp;for<a href="index.html"
+						target="_blank" title="新会">&nbsp;web_homework</a></p>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- copyright -->
+</body>
+
+</html>
